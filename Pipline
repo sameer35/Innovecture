@@ -2,7 +2,7 @@ jobs:
 - job: test1
 
   steps:
-  - script: echo Hello!
+  - script: echo Hello World !
   condition: always()
   
   job: test2
